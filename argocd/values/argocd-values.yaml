@@ -1,0 +1,35 @@
+server:
+  service:
+    type: ClusterIP
+configs:
+  params:
+    server.insecure: true
+dex:
+  enabled: false
+notifications:
+  enabled: false
+controller:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+server:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+repoServer:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+applicationSet:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+redis:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
