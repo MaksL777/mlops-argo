@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/MaksL777/goit-argo.git
+      repoURL: https://github.com/MaksL777/mlops-argo.git
       revision: HEAD
       directories:
       - path: namespace/*
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/MaksL777/goit-argo.git
+        repoURL: https://github.com/MaksL777/mlops-argo.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
